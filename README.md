@@ -26,7 +26,7 @@ spec:
             memory: "1Gi"
             cpu: "1"
 
-#Terraform Configuration for GKE Cluster:
+# Terraform Configuration for GKE Cluster:
 provider "google" {
   project = "snapchat-project"
   region  = "us-central1"
